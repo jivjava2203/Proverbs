@@ -1,4 +1,4 @@
-body{
+    body{
     margin: 0px;
 }
 nav{
@@ -6,8 +6,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding:0px 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(64, 64, 156); 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(104,46,44); 
     border: 1px solid gray;
     box-shadow: 0 0 10px rgb(192, 190, 190);
     flex-wrap: wrap;
@@ -79,7 +79,7 @@ nav{
     text-align: center;
     margin: 5px;
     background-color: white;
-    color: rgb(64, 64, 156);
+    color: rgb(104,46,44);
     border: 2px solid rgb(104,46,44);
     font-weight: bold;
     border-radius: 7px;
