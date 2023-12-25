@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proverbs</title>
+
+    <link rel="stylesheet" href="./pageStyle.css">
+    <link rel="icon" type="image/x-icon" href="resources/logoblack.png">
+</head>
+<body>
+    <nav>
+        <div class="part1">
+            <img src="resources/logoblack.png" height="20px">
+            <h3 class="proverbs_title">The Book of Proverbs</h3>
+        </div>
+
+        <div class="part2">
+            <a class="home_button" href="#">
+                <h3>Home</h3>
+            </a>
+            <a class="about_button" href="#">
+                <h3 >About</h3>
+            </a>
+        </div>
+    </nav>
+   
+    <div class="flex_container">
+        <div class="page_heading">
+            <h1 class="page_title" >Proverbs</h1>
+            <p class="page_phrase">"Our gateway to the timeless wisdom of the Book of Proverbs. 
+                Embark on a journey through this biblical masterpiece, filled with practical wisdom, moral guidelines, and life lessons that have resonated with the human experience across centuries."</p>
+
+            <a href="#">
+                <button class="page_btn" onclick="exploreClicked()">Read</button>
+            </a>
+        </div>
+
+       <div class="page_image">
+            <img class="page-image" src="resources/pageimg.png" width="350px">
+        </div> 
+    </div>
+
+    <script>
+        function exploreClicked() {
+            window.location.href = './Proverbs/index.html';
+        }
+    </script>
+</body>
+</html>
