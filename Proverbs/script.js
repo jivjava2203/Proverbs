@@ -5,6 +5,9 @@ function getChapterData(number) {
  }
   
 
+
+
+
 function generateChapterButtons() {
     const holder = document.querySelector(".c-container");
 
@@ -32,6 +35,18 @@ function generateChapterButtons() {
           pElement.classList.add("versesHolder"); 
       });
     });
+
+    const chapterButtons = document.querySelectorAll('.c-container button');
+
+chapterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // Remove the 'active' class from all buttons
+        chapterButtons.forEach(btn => btn.classList.remove('active'));
+
+        // Add the 'active' class to the clicked button
+        button.classList.add('active');
+    });
+});
 }
 
 //search

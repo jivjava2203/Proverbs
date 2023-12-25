@@ -95,6 +95,12 @@ nav{
     color: white;
 }
 
+.c-container button.active {
+    background-color: rgb(104, 46, 44);
+    color: white;
+}
+
+
 .verse-container{
     flex: 2;    
     display: flex;
