@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 64, 156); 
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgb(192, 190, 190);
+    flex-wrap: wrap;
+}
+
+.part1 {
+    color: rgb(104,46,44);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Lucida Sans';
+    margin-top: 2px;
+    padding-top: 2px;
+    
+}
+
+.part1 img {
+    width: 40px;
+    height: auto;
+    margin-right: 5px; 
+    margin-bottom: 5px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+
+.home_button, .about_button{
+    padding: 0px 15px;
+    text-decoration: none;
+    color: rgb(209,197,168);
+}
+
+.home_button {
+    border-radius: 5px; 
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.c-title{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: rgb(104,46,44);
+    padding-left: 20px;
+}
+
+.c-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.c-container button {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    background-color: white;
+    color: rgb(64, 64, 156);
+    border: 2px solid rgb(104,46,44);
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.c-container button:hover {
+    background-color:rgb(104,46,44); ;
+    color: white;
+}
+
+.verse-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    padding: 20px; 
+    overflow-y: auto;
+}
+
+.verse-container p {
+    height: 7%;
+    width: 500px;
+    border: 2px solid rgb(104,46,44);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    width: 1000px;
+    margin-top: 20px;
+    border: 2px solid rgb(104,46,44);
+    color: rgb(9, 9, 10);
+}
+
+
+@media (max-width: 800px) {
+    .c-container, .verses {
+      width: 100%; /* Set the width to 100% for smaller screens */
+    }
+}
